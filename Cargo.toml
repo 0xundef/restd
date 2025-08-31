@@ -1,6 +1,18 @@
 [package]
 name = "restd"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
+
+[lib]
+crate-type = ["lib"]
 
 [dependencies]
+# Core revm dependencies
+revm = "14.0.0"
+alloy-primitives = "0.8.0"
+
+# Async and logging for plugin system
+tokio = { version = "1.0", features = ["full"] }
+tracing = "0.1"
+async-trait = "0.1"
+serde = { version = "1.0", features = ["derive"] }
