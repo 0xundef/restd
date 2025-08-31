@@ -11,6 +11,11 @@ crate-type = ["lib"]
 revm = "14.0.0"
 alloy-primitives = "0.8.0"
 
+# Alloy dependencies for Solidity integration
+alloy-sol-types = "0.8.0"
+alloy-dyn-abi = "0.8.0"
+# Note: Using minimal dependencies to avoid version conflicts
+
 # Async and logging for plugin system
 tokio = { version = "1.0", features = ["full"] }
 tracing = "0.1"
