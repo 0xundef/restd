@@ -1,6 +1,6 @@
 # HelloWorldInspector Reth Plugin Integration
 
-This document explains how to integrate the `HelloWorldInspector` with a reth node as a plugin.
+RESTD means realtime ethereum smartcontract threat detection, that leverages the inpector and plugin facilities to hook smartcontract call, all these stuff looks like the RASP and HIDS in tranditional cybersecurity have done.
 
 ## Overview
 
